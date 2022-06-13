@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+  display: block;
+}
+
+body {
+  color: #333;
+  background-color: #fafbfc;
+  font-size: 14px;
+  font-family: 'Roboto', 'sans-serif';
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  -webkit-text-size-adjust: 100%;
+  cursor: auto;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+nav li::before {
+  content: none;
+}
+
+input,
+select,
+textarea,
+button {
+  appearance: none;
+  margin: 0;
+  outline: none;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  padding: 0;
+}
